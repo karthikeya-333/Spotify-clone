@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+body{
+  background-color: #F7E2D6;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-family: 'Trispace', sans-serif;
+}
+
+h3{
+  font-family: 'Raleway', sans-serif;
+}
+
+nav{
+  font-style: 'Ubuntu' , sans-serif;
+}
+
+.navul{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  background-color: black;
+  height: 65px;
+  color: white;
+
+}
+
+.brand img{
+  width: 44px;
+  padding: 0 8px;
+}
+
+.brand{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+nav ul li{
+  padding: 0 12px;
+}
+
+.container{
+  background-color: black;
+  color: white;
+  min-height: 90vh;
+  font-family: 'Varela Round',sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 60%;
+  border-radius: 12px;
+  padding: 24px;
+  background-image: url('bg.jpg');
+}
+
+.container h1{
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.bottom{
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#myprogressbar{
+  width: 80vw;
+  text-align: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.icons i{
+  cursor: pointer;
+}
+
+.songitemsContainer{
+  margin-top: 74px;
+}
+
+.songitem{
+  height: 50px;
+  display: flex;
+  background-color: white;
+  color: black;
+  margin: 12px 0 ;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 34px;
+  width: 220%;
+}
+
+.songitem img{
+  width: 43px;
+  margin: 0 23px ;
+  border-radius: 34px;
+}
+
+.timestamp{
+  margin: 0 23px;
+}
+
+.timestamp i{
+  cursor: pointer;
+}
+
+.songinfo{
+  position: absolute;
+  left: 10vw;
+  font-family: 'Varela Round',sans-serif;
+}
+
+.songinfo img{
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+h1{
+  margin-left: 30px;
+}
+
+.input{
+  margin-top: 40px;
+  width: 25%;
+  border-radius: 5px;
+  margin-left: 100px;
+}
+
+.label{
+  background-color: black;
+  color: white;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+
+.search{
+  background-color: black;
+  color: white;
+  padding: 2px;
+  border: 1px;
+}
+
+.search :hover{
+  background-color: white;
+  color: black;
+}
+
+.hometitle button{
+  font-family: 'Barlow', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.RecentlyPlayed h1{
+  margin-top: 35px;
+}
+
+.recommended h1{
+  margin-top: 45px;
+}
+
+
+.searchedPLS{
+  display: flex;
+}
+
+.recommendeditems{
+  display: flex;
+}
+
+.PLitem{
+  width: 200px;
+  margin-left: 35px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border-radius: 34px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.PLitem img{
+  height: 250px;
+  width: 200px;
+  border-radius: 34px;
+  margin-bottom: 10px;
+}
+
+.PLitem figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.PLitem figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
